@@ -14,24 +14,16 @@
 
 	    <!-- Our Custom CSS -->
 	    <link rel="stylesheet" href="octo_front/styles/style.css">
-	    <link rel="stylesheet" href="octo_front/styles/shape.css">
 
 	    <!-- Font Awesome JS -->
-	    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
 	    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
-
-		<!-- Vue.js -->
-		<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-		
-		<!-- Axios -->
-		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
 			<div class="row mt-5">
 				<div class="col-4">
 					<div class="form-group">
-						<textarea id="persons"></textarea>
+						<textarea id="persons" class="form-control"></textarea>
 					</div>
 				</div>
 			</div>
