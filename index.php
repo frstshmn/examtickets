@@ -4,7 +4,7 @@
 		<title>Видання білетів</title>
 	</head>
 	<body>
-		<div>
+		<div class="container">
 			
 		</div>
 	</body>
