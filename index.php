@@ -5,7 +5,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-		<title>Видання білетів</title>
+		<title>Видача екзаменаційних білетів</title>
 
 	    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap" rel="stylesheet">
 
@@ -15,8 +15,8 @@
 	    <!-- Our Custom CSS -->
 	    <link rel="stylesheet" href="style.css">
 
-	    <!-- Font Awesome JS -->
-	    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+	    <!-- Font Awesome -->
+	    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 	</head>
 	<body class="font">
 		<div class="container">
@@ -34,10 +34,13 @@
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12 text-center">
-					<p class="text-left text-muted text-monospace">1. Введіть у поле праворуч список осіб, яким потрібно роздати білет. Кожну нову особу вводьте з нового рядка, натискаючи клавішу <kbd>Enter</kbd></p>
-					<p class="text-left text-muted text-monospace">2. Натисніть кнопку "Роздати білети".</p>
+					<p class="text-left text-muted text-monospace">1. Введіть у поле праворуч список осіб, яким потрібно роздати білет. Кожну нову особу вводьте з нового рядка, натискаючи клавішу <kbd>Enter</kbd>.</p>
+					<p class="text-left text-muted text-monospace">2. Розкажіть байку про щасливий білет.</p>
+					<p class="text-left text-muted text-monospace">3. Натисніть кнопку "Роздати білети".</p>
 					<button class="btn button btn-dark py-2 px-4 border-0 my-2" id="give_tickets">Роздати білети</button>
-					<p class="text-left text-muted text-monospace">3. Вуаля:)</p>
+					<p class="text-left text-muted text-monospace">4. Вуаля:) Насолоджуйтесь криками відчаю та благаннями взяти інший білет</p>
+					<p class="text-left text-muted text-monospace mb-5">5 (за бажанням). Порадьте сервіс колегам.</p>
+					<p class="text-center text-muted text-monospace pt-5">developed by <a href="http://spacedesign.in.ua" target="_blank">frstshmn</a></p>
 				</div>
 				<div class="col-md-4 col-xs-12" id="result">
 					
