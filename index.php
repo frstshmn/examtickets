@@ -13,7 +13,7 @@
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
 	    <!-- Our Custom CSS -->
-	    <link rel="stylesheet" href="octo_front/styles/style.css">
+	    <link rel="stylesheet" href="style.css">
 
 	    <!-- Font Awesome JS -->
 	    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
@@ -21,10 +21,16 @@
 	<body>
 		<div class="container">
 			<div class="row mt-5">
-				<div class="col-4">
+				<div class="col-md-4 col-xs-12">
 					<div class="form-group">
 						<textarea id="persons" class="form-control"></textarea>
 					</div>
+				</div>
+				<div class="col-md-4 col-xs-12 text-center">
+					<button class="btn button btn-dark">Роздати білети</button>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					
 				</div>
 			</div>
 		</div>
