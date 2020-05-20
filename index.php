@@ -37,8 +37,8 @@
 					<p class="text-left text-muted text-monospace">1. Введіть у поле праворуч список осіб, яким потрібно роздати білет. Кожну нову особу вводьте з нового рядка, натискаючи клавішу <kbd>Enter</kbd>.</p>
 					<p class="text-left text-muted text-monospace">2. Розкажіть байку про щасливий білет.</p>
 					<p class="text-left text-muted text-monospace">3. Натисніть кнопку "Роздати білети".</p>
-					<button class="btn button btn-dark py-2 px-4 border-0 my-2" id="give_tickets">Роздати білети</button>
-					<p class="text-left text-muted text-monospace">4. Вуаля:) Насолоджуйтесь криками відчаю та благаннями взяти інший білет</p>
+					<button class="btn button btn-dark py-2 px-4 border-0" id="give_tickets">Роздати білети</button>
+					<p class="text-left text-muted text-monospace pt-3">4. Вуаля:) Насолоджуйтесь криками відчаю та благаннями взяти інший білет</p>
 					<p class="text-left text-muted text-monospace mb-5">5 (за бажанням). Порадьте сервіс колегам.</p>
 					<p class="text-center text-muted text-monospace pt-5">developed by <a href="http://spacedesign.in.ua" target="_blank">frstshmn</a></p>
 				</div>

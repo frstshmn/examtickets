@@ -3,17 +3,27 @@
 }
 
 .button{
+	color: #fff;
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
 	border-radius: 100px;
-	background: rgb(131,58,180);
-    background: linear-gradient(153deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    transition: .3s;
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
 
 .button:hover{
+	background-position: 100% 0;
 	transform: translateY(-3px);
 	box-shadow: 0px 3px 3px grey;
-	background: rgb(131,58,180);
-    background: linear-gradient(153deg, rgba(131,58,180,1) 10%, rgba(253,29,29,1) 90%, rgba(252,176,69,1) 100%);
+}
+
+.button:focus {
+    outline: none;
 }
 
 #result{
@@ -22,7 +32,7 @@
 
 a{
 	opacity: 0.3;
-	background: linear-gradient(153deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+	background: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	transition: .5s;
