@@ -3,8 +3,13 @@ $('#give_tickets').click(function(event) {
 
 	let ticket_numbers = [];
 
-	
-	let l = list.length;
+	if ($('#tickets_count').val() == 0){
+		let l = list.length;
+	}
+	else 
+	{
+		let l = $('#tickets_count').val();
+	}
 
 	let lucky_ticket = getRndInteger(1, l);
 
