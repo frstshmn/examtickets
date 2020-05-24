@@ -30,30 +30,29 @@
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<div class="form-group">
-						<textarea id="persons" class="form-control" rows="10"></textarea>
+						<textarea id="persons" class="form-control" rows="10" placeholder="Список студентів"></textarea>
 					</div>
 				</div>
 				<div class="col-md-4 col-xs-12 text-center">
 					<p class="text-left text-muted text-monospace">1. Введіть у відповідне поле список осіб, яким потрібно роздати білет. Кожну нову особу вводьте з нового рядка, натискаючи клавішу <kbd>Enter</kbd>.</p>
-					<p class="text-left text-muted text-monospace">2. Розкажіть байку про щасливий білет.</p>
-					<p class="text-left text-muted text-monospace">3. Натисніть кнопку "Роздати білети".</p>
-					<div class="row">
-						<div class="col-6 m-0">
-							<input type="number" id="tickets_count" class="py-2 px-4 border-0 w-100 m-0" placeholder="К-сть білетів">
-						</div>
-						<div class="col-6 m-0">
-							<button class="btn button btn-dark py-2 px-4 border-0 m-0" id="give_tickets">Роздати білети</button>
+					<p class="text-left text-muted text-monospace">2. При потребі введіть кількість наявних білетів.</p>
+					<p class="text-left text-muted text-monospace">3. Розкажіть байку про щасливий білет.</p>
+					<p class="text-left text-muted text-monospace">4. Натисніть кнопку "Роздати білети".</p>
+					<div class="input-group">
+						<input type="number" id="tickets_count" class="py-2 px-4 border-0 form-control" placeholder="К-сть білетів">
+						<div class="input-group-append">
+							<button class="btn button btn-dark py-2 px-4 border-0" id="give_tickets">Роздати білети</button>
 						</div>
 					</div>
-					<p class="text-left text-muted text-monospace pt-3">4. Вуаля:) Насолоджуйтесь криками відчаю та благаннями взяти інший білет</p>
-					<p class="text-left text-muted text-monospace mb-5">5 (за бажанням). Порадьте сервіс колегам.</p>
+					<p class="text-left text-muted text-monospace pt-3">5. Вуаля:) Насолоджуйтесь криками відчаю та благаннями взяти інший білет.</p>
+					<p class="text-left text-muted text-monospace mb-5">6 (за бажанням). Порадьте сервіс колегам.</p>
 					
 				</div>
 				<div class="col-md-4 col-xs-12" id="result">
 					
 				</div>
 				<div class="col-12 text-center">
-					<p class="text-center text-muted text-monospace pt-5">developed by <a href="http://spacedesign.in.ua" target="_blank">frstshmn</a></p>
+					<p class="text-center text-muted text-monospace">developed by <a href="http://spacedesign.in.ua" target="_blank">frstshmn</a></p>
 				</div>
 			</div>
 		</div>
