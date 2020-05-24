@@ -1,16 +1,15 @@
 $('#give_tickets').click(function(event) {
+	alert('Технічне обслуговування, вибачте за незручності');
 	let list = $('#persons').val().split('\n');
-
 	let ticket_numbers = [];
+	
+	alert($('#tickets_count').val());
+	let l = list.length;
 
-	if ($('#tickets_count').val() == 0){
-		let l = list.length;
-	}
-	else 
-	{
+	if ($('#tickets_count').val() === 4){
 		let l = $('#tickets_count').val();
 	}
-
+	
 	let lucky_ticket = getRndInteger(1, l);
 
 	while(ticket_numbers.length < l){
